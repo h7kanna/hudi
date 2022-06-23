@@ -99,6 +99,7 @@
                   <include>org.apache.hudi:hudi-hadoop-mr</include>
                   <include>org.apache.hudi:hudi-timeline-service</include>
                   <include>org.apache.hudi:hudi-aws</include>
+                  <include>org.apache.hudi:hudi-k8s</include>
 
                   <include>com.yammer.metrics:metrics-core</include>
                   <include>com.beust:jcommander</include>
@@ -160,7 +161,25 @@
                   <include>org.apache.curator:curator-client</include>
                   <include>org.apache.curator:curator-recipes</include>
                   <include>commons-codec:commons-codec</include>
+                  <include>io.kubernetes:*</include>
+                  <include>io.swagger:*</include>
+                  <include>org.jetbrains:annotations</include>
+                  <include>com.squareup.okhttp3:*</include>
+                  <include>com.squareup.okio:*</include>
+                  <include>com.google.code.gson:gson</include>
+                  <include>com.google.code.findbugs:jsr305</include>
+                  <include>io.gsonfire:gson-fire</include>
+                  <include>org.yaml:snakeyaml</include>
+                  <include>org.apache.commons:*</include>
                   <include>commons-io:commons-io</include>
+                  <include>org.bouncycastle:*</include>
+                  <include>com.google.protobuf:protobuf-java</include>
+                  <include>org.bitbucket.b_c:jose4j</include>
+                  <include>com.github.vladimir-bukhtoyarov:bucket4j-core</include>
+                  <include>com.flipkart.zjsonpatch:zjsonpatch</include>
+                  <include>com.github.ben-manes.caffeine:caffeine</include>
+                  <include>org.checkerframework:checker-qual</include>
+                  <include>com.google.errorprone:error_prone_annotations</include>
                 </includes>
               </artifactSet>
               <relocations>
