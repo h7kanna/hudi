@@ -95,6 +95,7 @@ The default Spark version supported is 2.4.4. Refer to the table below for build
 For example,
 ```
 # Build against Spark 3.2.x
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
 mvn clean package -DskipTests -Dspark3.2 -Dscala-2.12
 
 # Build against Spark 3.1.x
