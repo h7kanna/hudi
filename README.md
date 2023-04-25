@@ -96,6 +96,8 @@ Refer to the table below for building with different Spark and Scala versions.
 
 For example,
 ```
+export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
+
 # Build against Spark 3.2.x
 mvn clean package -DskipTests -Dspark3.2 -Dscala-2.12
 
